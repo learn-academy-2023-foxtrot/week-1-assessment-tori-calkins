@@ -33,6 +33,26 @@ const temperature3 = 212
 // Expected output: "212 is at boiling point"
 
 // Pseudo code:
+// function name: number
+// input: number
+// output: The output will give a string with one of these strings "boiling point", "at boiling point", or "above boiling point" depending on the number given.
+//proccess: conditional statements will be used to determine if each statment is true or false and execute the proper string.
+
+//attempt one:
+const number = (num) => {
+    if (num <= 42 ) {
+        return(`${temperature1} is below boiling point`)
+    } else if (num >= 350) {
+        return(`${temperature2} is above boiling point`)
+    } else if (num === 212) {
+        return(`${temperature3} is at boiling point`)
+    } else {
+        return "error"
+    }
+}
+console.log(number(temperature1))
+console.log(number(temperature2))
+console.log(number(temperature3))
 
 // --------------------2) Create the code that will combine the two arrays and return the length using the test variables provided below.
 
@@ -41,6 +61,12 @@ const padres1998WorldSeriesRuns = [6, 3, 5, 3]
 // Expected output: 9
 
 // Pseudo code:
+// function name: padresCombo
+// input: none
+// output: the combined arrays length 
+// process: .length and concat built in methods to combine the arrays and also get the length index number to appear in the console.
+var padresCombo = padres1984WorldSeriesRuns.concat(padres1998WorldSeriesRuns)
+console.log(padresCombo.length)
 
 // --------------------3) Create the code that will reverse the letters of a string using the test variable provided below.
 
@@ -48,6 +74,15 @@ const currentCohort = "Foxtrot 2023"
 // Expected output: "3202 tortxoF"
 
 // Pseudo code:
+// input: none
+// output: the output will be the value of the <currentCohort> backwards in the console
+// proccess: .split, .reverse, and .join built in methods
+
+// written out step I took to build up to final answer:
+// console.log(currentCohort.split(""))
+// console.log(currentCohort.split("").reverse())
+
+console.log(currentCohort.split("").reverse().join(""))
 
 // --------------------4) Create the code that will return the last index of the given value from the array using the test variables provided below.
 
@@ -60,3 +95,17 @@ const givenValue2 = 10
 // Expected output: 8
 
 // Pseudo code:
+// input: none
+// output: the output is going to be the number of the index of the value number provided
+// process: .indexOf will be used to show the index number of the wanted value
+
+
+// console.log(numberOfConnections.indexOf(givenValue1))
+// console.log(numberOfConnections.indexOf(givenValue2)) 
+// output = 2, 5 
+
+// I knew at first the .indexOf would give me the index number of the values but then I realized it gave me thr first set of the index numbers and not the last set so I had a feeling there was a built-in method to help achieve my goal so I did some trial and error with the built-in methods.
+
+console.log(numberOfConnections.lastIndexOf(givenValue1))
+console.log(numberOfConnections.lastIndexOf(givenValue2))
+
