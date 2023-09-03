@@ -104,7 +104,7 @@ const givenValue2 = 10
 // console.log(numberOfConnections.indexOf(givenValue2)) 
 // output = 2, 5 
 
-// I knew at first the .indexOf would give me the index number of the values but then I realized it gave me thr first set of the index numbers and not the last set so I had a feeling there was a built-in method to help achieve my goal so I did some trial and error with the built-in methods.
+// I knew at first the .indexOf would give me the index number of the values but then I realized it gave me the first set of the index numbers and not the last set so I had a feeling there was a built-in method to help achieve my goal so I did some trial and error with the built-in methods.
 
 console.log(numberOfConnections.lastIndexOf(givenValue1))
 console.log(numberOfConnections.lastIndexOf(givenValue2))

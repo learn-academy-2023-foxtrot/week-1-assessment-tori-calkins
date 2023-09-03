@@ -22,21 +22,21 @@ Researched answer: Git is a free version control system that is not directed to 
 
 2. Which JavaScript operators will return a Boolean value?
 
-Your answer: 
+Your answer: There are three main types of JavaScript operators equality, relational, and logical operators within are strict and loose equality operators and logical AND and logical OR operators. These operators all will return a boolean value. 
 
-Researched answer:
+Researched answer: JavaScipt has multiple operators that are used to execute a Boolean value. The three main categories of: equality, relational, and logical. For equality there is loose operators which use == and strict operators which use ===. For logical there is logical AND which use &&, logical OR which use ||, and lastly negation which uses !. All used for different purposes, but return you with a Boolean value if needed.
 
 1. What is the difference between an array's index and its value?
 
-Your answer: An array's index counts the amounts of values inside of an array starting at 0 and going up from there. An array's value(s) are located inside of brackets.
+Your answer: An array's index counts the amounts of values inside of an array starting at 0 and going up from there. An array's value(s) are located inside of braces.
 
 Researched answer: An array's index puts a numbered location to each value/element, starting at 0 and going up from there,  which allows the ability to address each individual element separately or together. The values are separate elements inside of brackets, in the form of JavaScript data types, that are held in one variable. Each element can be a different data type as long as they are used correctly and can be read by the computer. 
 
 4. Compare and contrast arrays and strings. Please include ways in which they are the same and ways in which they are different.
 
-Your answer:
+Your answer: An array holds sets of values/elements within braces. Strings are a type of JavaScript datatype that is used to execute letters and words within quotations. Arrays can hold strings as their values, just like how a string can hold letters/values inside of its quotations. Both hold values within themselves and a specific format.
 
-Researched answer:
+Researched answer: Although, arrays and strings are different and used for different goals, their structures are similar. Arrays hold collections of data inside of a memory location and strings are one of the types of data that can be stored inside of the memory location. An array generally holds multiple elements of the same datatype within itself, meanwhile a string hold one value and separates itself with quotation marks. 
 
 5. Give a brief description of proper pair programming techniques. What are the roles of each person?
 
@@ -48,8 +48,8 @@ Researched answer: The driver is the one with their hands on the keyboard, typin
 
 Research and define the following terms to the best of your ability.
 
-1. Higher Order Functions:
+1. Higher Order Functions: Built-in methood of JavaScript that alter functions to be arguments that are used on arrays to excute the argument on each value in the array. 
 
-2. Jest:
+2. Jest: is a JavaScript test framework used to assure the correctness of a codebase in JavaScript. It is multiple files of code/dependencies used together to make tests on code availiable.
 
-3. Objects:
+3. Objects: a collection of key value pairs inside of braces. The value pair should consist of a datatype of symbol and any value thats within a set datatype, for best use. 
